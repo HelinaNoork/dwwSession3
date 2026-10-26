@@ -1,0 +1,73 @@
+/* whole page */
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+/* beige section */
+.destinations {
+  background: #f1e4c3;
+  padding: 60px 100px;
+}
+
+/* big title */
+.destinations h2 {
+  margin: 0 0 8px;
+  font-size: 22px;
+}
+
+/* text under the title */
+.destinations > p {
+  max-width: 600px;
+  margin: 0 0 40px;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+/* the 3 cards next to each other */
+.cards {
+  display: flex;
+  gap: 40px;
+}
+
+/* one card */
+.card {
+  width: 240px;
+  background: white;
+  border-radius: 10px;
+  padding: 6px 6px 14px;
+}
+
+/* picture */
+.card img {
+  display: block;
+  width: 100%;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+/* card title */
+.card h3 {
+  margin: 12px 6px 6px;
+  font-size: 14px;
+}
+
+/* card text */
+.card p {
+  margin: 0 6px 12px;
+  font-size: 11px;
+  line-height: 1.4;
+}
+
+/* button */
+.card a {
+  display: inline-block;
+  margin-left: 6px;
+  background: #4a979d;
+  color: white;
+  font-size: 11px;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 4px;
+}
